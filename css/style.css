@@ -1,8 +1,17 @@
-/* font google */
-/*
+/* font google 
 per i paragrafi =>font-family: 'Cousine', monospace;
 per i titoli =>font-family: 'Space Mono', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Cousine&family=Space+Mono:wght@400;700&display=swap');
+/* colori */
+:root{
+    --bg-navbar: #3aa5a0;
+    --color-text-card: #f3dad8;
+    --bg-card: #5f1a37;
+    --bg-footer: #AF7A6D;
+    --bg-general: #73EEDC;
+    /* nero meno nero che diminuisce il contrasto sullo sfondo bianco */
+    --color-text-general: #1c1c1c;
+}
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Space Mono', monospace;
@@ -10,3 +19,4 @@ h1, h2, h3, h4, h5, h6{
 p, li, ul {
     font-family: 'Cousine', monospace
 }
+
