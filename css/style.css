@@ -9,6 +9,10 @@ per i titoli =>font-family: 'Space Mono', monospace; */
     --bg-card: #5f1a37;
     --bg-footer: #AF7A6D;
     --bg-general: #73EEDC;
+    /* altri colori che ci stanno bene */
+    --color-general: #074F57;
+    --outer-space: #464E47; 
+    --dark-purple: #210124;
     /* nero meno nero che diminuisce il contrasto sullo sfondo bianco */
     --color-text-general: #1c1c1c;
 }
@@ -19,11 +23,15 @@ h1, h2, h3, h4, h5, h6{
 p, li, ul {
     font-family: 'Cousine', monospace
 }
+/* ---------navbar---------- */
 .navbar-sfondo{
     background-color: var(--bg-navbar);
 }
-
+/* ---------header--------- */
 .my-image-bg{
-    background-image: none;
-
+    height:690px;
+    width: 100vw;
+    background-image: url(/immagini/galleria-home-1-1024x683.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
