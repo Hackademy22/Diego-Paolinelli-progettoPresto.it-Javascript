@@ -20,18 +20,46 @@ per i titoli =>font-family: 'Space Mono', monospace; */
 h1, h2, h3, h4, h5, h6{
     font-family: 'Space Mono', monospace;
 }
-p, li, ul {
+p, li, ul, a {
     font-family: 'Cousine', monospace
 }
 /* ---------navbar---------- */
 .navbar-sfondo{
     background-color: var(--bg-navbar);
 }
+.home-logo{
+    width: 6%;
+}
 /* ---------header--------- */
 .my-image-bg{
-    height:690px;
+    /* bg style */
+    position: relative;
+    height: 90vh;
     width: 100vw;
-    background-image: url(/immagini/galleria-home-1-1024x683.webp);
+    margin-top: 56px;
+    background-image: url(/immagini/headerimg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+ 
+}
+.my-header-text{
+    /* text style header */
+    height: 300px;
+    display: flexbox;
+    color: var(--color-text-card);
+    text-align: center;
+    margin-top: 55px;
+}
+.my-button{
+    margin: 50px;
+    background-color: var(--color-general);
+    color: var(--color-text-card);
+    height: 35px;
+    border-radius: 45%;
+    border: 1px solid var(--outer-space);
+}
+/* ---------main-------- */
+.my-main{
+    height: 500px;
+    background-color: var(--bg-general);
 }
